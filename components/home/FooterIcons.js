@@ -8,7 +8,7 @@ function FooterIcons() {
     return (
             <View style={styles.footerIcons}>
                 <TouchableOpacity>
-                    <FontAwesomeIcon style={styles.headerIcon} icon={ faStore } size={30}/>
+                    <FontAwesomeIcon style={styles.headerIcon} icon={ faStore } size={30} secondaryOpacity={ 0.9 }/>
                 </TouchableOpacity>
                 <TouchableOpacity>
                     <FontAwesomeIcon style={styles.headerIcon} icon={ faSearch } size={30}/>

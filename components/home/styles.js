@@ -61,12 +61,20 @@ const styles = StyleSheet.create({
     },
     footerIcons: {
         flexDirection: "row",
-        justifyContent: "space-between",
+        justifyContent: "space-around",
      },
      footerImage: {
         width: 32,
         height: 32,
         borderRadius: 50
+    },
+    inputStyle: {
+        backgroundColor: '#fafafa',
+        borderRadius: 5,
+        marginBottom: 15,
+        marginBottom: 5,
+        borderWidth: 0.3,
+        padding: 10
     }
 });
 

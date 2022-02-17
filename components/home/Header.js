@@ -5,14 +5,14 @@ import { faPlusSquare, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
 import styles from './styles';
 
-function Header() {
+function Header({navigation}) {
     return (
         <View style={styles.headerContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
                 <Text style={styles.homeScreenTitle}>Instagram</Text>
             </TouchableOpacity>
             <View style={styles.headerIcons}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
                     <FontAwesomeIcon style={styles.headerIcon} icon={ faPlusSquare } size={24}/>
                 </TouchableOpacity>
                 <TouchableOpacity>
